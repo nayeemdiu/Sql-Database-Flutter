@@ -8,11 +8,18 @@ class SqfliteDatabase extends StatefulWidget {
 }
 
 class _SqfliteDatabaseState extends State<SqfliteDatabase> {
+
+
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
 
-        appBar: AppBar(title: Text('SQL DATABASE'),),
+        appBar: AppBar(title: Text('SQL DATABASE'),centerTitle: true,),
+
+
+
+
+
 
     );
   }

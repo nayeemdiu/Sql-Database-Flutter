@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sqflite_database/details_page.dart';
 import 'package:sqflite_database/sqflite_database_page.dart';
 
 void main() {
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter app demo',
       theme: ThemeData(
       ),
-      home: SqfliteDatabase(),
+      home: Details(),
     );
   }
 }
