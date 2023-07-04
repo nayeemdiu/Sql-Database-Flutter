@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite_database/details_page.dart';
-import 'package:sqflite_database/sqflite_database_page.dart';
+import  'package:sqflite_database/sqflite_database_page.dart';
 
 void main() {
   runApp(const MyApp());
